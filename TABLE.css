@@ -1,0 +1,46 @@
+ody {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    text-align: center;
+}
+
+h2 {
+    color:darkgreen;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: pink;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightskyblue;
+    padding: 10px;
+}
+
+th {
+    background-color: #2874a6;
+    color: pink;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid grey;
+}
+
+tr:nth-child(even) {
+    background-color: #d6eaf8;
+}
+
+tr:hover {
+    background-color: #aed6f1;
+}
